@@ -1,3 +1,5 @@
 ## What is C#?
 
-C# (pronounced "See Sharp") is a programming language that was created as a child of C, and an evolution of C++. It is object-oriented and type-safe, which may be familiar for Java developers as well.
+C# (pronounced "See Sharp") is a programming language that was created as a child of C, and an evolution of C++. It is object-oriented and type-safe, which may be familiar for Java developers as well. C# enables developers to build secure and robust applications with .NET. Check [Microsoft's Documentation on the C# language](https://docs.microsoft.com/en-us/dotnet/csharp/).
+
+As C# is object-oriented language, all types inherit from the `object` type, including primitive types such as `int` and `bool`. Values of any type can be stored, operated, and transported upon in a consistant manner inherited from the `object` type. C# also supports user-defined [value types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [reference types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/reference-types) 
