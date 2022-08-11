@@ -8,7 +8,3 @@ C# provides several features that help create robust and durable applications. I
 
 The .NET SDK compiles several languages to Microsoft Intermediate Language (MSIL) (also known as Compiled Intermediate Language - CIL). It provides a compiler for each C#, F#, and VB.NET language that takes the source files and translates them into MSIL. This enables the C# language to evolve and grow with flexibility independent of the runtime environment. We can use tools, such as IL Diassembler (ILDASM), to see what the intermediate language is, from a compiled .NET executable or library.
 
-![MSIL/CIL Code](./_images/MSIL-code.jpg)
-
-*MSIL/CIL Code example*
-
