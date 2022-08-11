@@ -16,7 +16,6 @@ We can use tools, such as IL Diassembler (ILDASM), to see what the intermediate 
 
 *MSIL/CIL Code example*
 
-
 ## .NET Runtime is responsible for running MSIL
 
 Once C# files are compiled to MSIL, they need to be executed. The .NET Runtime is responsible for executing that intermediate language (.NET executables).
@@ -27,3 +26,8 @@ Newer versions of the .NET Runtime, starting with .NET Core, are cross-platform.
 
 Another feature from newer versions is that the runtime can be deployed bundled with the application, eliminating the need for a separate instalation. This is useful for running many applications with different runtimes, in the same platform. It simplifies the deployment and management of the dependencies.
 
+## The Base Class Library
+
+.NET have common functionality that work for any of its supported languages, provided with the SDK, in the Base Class Library (BCL).The BCL provides types for the most basic functions, such as string manipulation, mathematical functions and date functionalities, and for more complex features, such as file manipulation and data access.
+
+Application developers will usually build their libraries on top of the BCL and use these libraries in the application as well. They might make direct calls to BCL types, or to a custom library, or even to a third party library. There are many open source libraries (many maintained by Microsoft) available to be used (as third party) as well.
