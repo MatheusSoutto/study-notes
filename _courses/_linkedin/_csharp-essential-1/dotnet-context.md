@@ -35,3 +35,5 @@ Application developers will usually build their libraries on top of the BCL and 
 ## Nuget
 
 Nuget is a repository for libraries that provides versioning, infrastructure, developer and library information. Libraries can be published with metadata as a package to Nuget, where other developers can download and install them. Nuget Package Manager is a tool used by developers for creating nuget packages as well as installing them. Visual Studio natively supports Nuget both for creating and consuming packages.
+
+One of the main benefits of using Nuget is that a package contains much more information than a DLL. It has metadata that can identify the package, so you can check if it is the correct one you wished to install. Microsoft official libraries are also published to Nuget, which enables faster and focused updates to the libraries.
