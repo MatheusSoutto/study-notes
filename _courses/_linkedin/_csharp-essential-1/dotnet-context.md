@@ -31,3 +31,7 @@ Another feature from newer versions is that the runtime can be deployed bundled 
 .NET have common functionality that work for any of its supported languages, provided with the SDK, in the Base Class Library (BCL).The BCL provides types for the most basic functions, such as string manipulation, mathematical functions and date functionalities, and for more complex features, such as file manipulation and data access.
 
 Application developers will usually build their libraries on top of the BCL and use these libraries in the application as well. They might make direct calls to BCL types, or to a custom library, or even to a third party library. There are many open source libraries (many maintained by Microsoft) available to be used (as third party) as well.
+
+## Nuget
+
+Nuget is a repository for libraries that provides versioning, infrastructure, developer and library information. Libraries can be published with metadata as a package to Nuget, where other developers can download and install them.
